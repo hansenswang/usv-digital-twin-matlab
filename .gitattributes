@@ -1,0 +1,13 @@
+# Normalise line endings for text files on commit
+* text=auto
+
+# Binary assets — never apply line-ending conversion
+*.mat   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.pdf   binary
+*.slx   binary
+*.xlsx  binary
+*.zip   binary
